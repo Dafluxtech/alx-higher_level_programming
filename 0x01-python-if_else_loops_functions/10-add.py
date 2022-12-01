@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-# 10-add.py
-# Eden Ayodeji <dayodeji31@yahoo.com>
-
-
+# Author - Eden Ayodeji
 def add(a, b);
 	"""Return the addition of a and b."""
 	return (a + b)

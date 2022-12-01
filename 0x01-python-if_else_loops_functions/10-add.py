@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-add = __import__('10-add').add
+# 10-add.py
 
-print(add(1, 2))
-print(add(98, 0))
-print(add(100, -2))
+def add(a, b):
+	"""Return the addition of a and b."""
+	return (a + b)

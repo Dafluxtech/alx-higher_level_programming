@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #3-square.py
 """A module that defines a square """
 

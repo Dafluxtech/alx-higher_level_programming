@@ -16,25 +16,26 @@
 * this/self
 * Modern JS
 
-## TASKS :page_with_no_curl:
+## TASKS : page_with_no_curl:
 
-* **0. Write an empty class Rectangle that defines a rectangle:
+* 0. Write an empty class Rectangle that defines a rectangle:
 
 	You must use the class notation for defining your class
 
 
-guillaume@ubuntu:~/0x13$ cat 0-main.js
-#!/usr/bin/node
-const Rectangle = require('./0-rectangle');
+	guillaume@ubuntu:~/0x13$ cat 0-main.js
 
-const r1 = new Rectangle();
-console.log(r1);
-console.log(r1.constructor);
+	#!/usr/bin/node
+	const Rectangle = require('./0-rectangle');
 
-guillaume@ubuntu:~/0x13$ ./0-main.js
-Rectangle {}
-[Class: Rectangle]
-guillaume@ubuntu:~/0x13$ 
+	const r1 = new Rectangle();
+	console.log(r1);
+	console.log(r1.constructor);
+
+	guillaume@ubuntu:~/0x13$ ./0-main.js
+	Rectangle {}
+	[Class: Rectangle]
+	guillaume@ubuntu:~/0x13$ 
 
 	Repo:
 
@@ -43,7 +44,7 @@ guillaume@ubuntu:~/0x13$
 	File: 0-rectangle.js
 
 
-* **1. Write a class Rectangle that defines a rectangle:
+* 1. Write a class Rectangle that defines a rectangle:
 
   * You must use the class notation for defining your class
   * The constructor must take 2 arguments w and h
@@ -51,7 +52,7 @@ guillaume@ubuntu:~/0x13$
   * Initialize the instance attribute height with the value of h
 
 
-* **2. Rectangle #2
+* 2. Rectangle #2
   
   * Write a class Rectangle that defines a rectangle:
 
@@ -61,7 +62,7 @@ guillaume@ubuntu:~/0x13$
 	Initialize the instance attribute height with the value of h
 	If w or h is equal to 0 or not a positive integer, create an empty object
 
-* **3. Rectangle #3
+* 3. Rectangle #3
 
   * Write a class Rectangle that defines a rectangle:
 
@@ -72,7 +73,7 @@ guillaume@ubuntu:~/0x13$
 	If w or h is equal to 0 or not a positive integer, create an empty object
 	Create an instance method called print() that prints the rectangle using the character X
 
-* **4. Rectangle #4
+* 4. Rectangle #4
 
   * Write a class Rectangle that defines a rectangle:
 	You must use the class notation for defining your class
@@ -84,7 +85,7 @@ guillaume@ubuntu:~/0x13$
 	Create an instance method called rotate() that exchanges the width and the height of the rectangle
 	Create an instance method called double() that multiples the width and the height of the rectangle by 2
 
-* **5. Square #0
+* 5. Square #0
 
   * Write a class Square that defines a square and inherits from Rectangle of 4-rectangle.js:
 
@@ -92,7 +93,7 @@ guillaume@ubuntu:~/0x13$
 	The constructor must take 1 argument: size
 	The constructor of Rectangle must be called (by using super())
 
-* **6.  Square #1
+* 6.  Square #1
 
   * Write a class Square that defines a square and inherits from Square of 5-square.js:
 
@@ -100,27 +101,27 @@ guillaume@ubuntu:~/0x13$
 	Create an instance method called charPrint(c) that prints the rectangle using the character c
 	If c is undefined, use the character X
 
-* **7. Occurrences
+* 7. Occurrences
 
   * Write a function that returns the number of occurrences in a list:
 
 	Prototype: exports.nbOccurences = function (list, searchElement)
 
-* **8. Esrever
+* 8. Esrever
 
   * Write a function that returns the reversed version of a list:
 
 	Prototype: exports.esrever = function (list)
 	You are not allow to use the built-in method reverse
 
-* **9. Log me
+* 9. Log me
 
   * Write a function that prints the number of arguments already printed and the new argument value. (see example below)
 
-Prototype: exports.logMe = function (item)
-Output format: <number arguments already printed>: <current argument value>
+	Prototype: exports.logMe = function (item)
+	Output format: <number arguments already printed>: <current argument value>
 
-* **10. Number conversion
+* 10. Number conversion
   
   * Write a function that converts a number from base 10 to another base passed as argument:
 
@@ -128,7 +129,7 @@ Output format: <number arguments already printed>: <current argument value>
 	You are not allowed to import any file
 	You are not allowed to declare any new variable (var, let, etc..)
 
-* **11. Factor index
+* 11. Factor index
 
   * Write a script that imports an array and computes a new array.
 
@@ -137,7 +138,7 @@ Output format: <number arguments already printed>: <current argument value>
 	A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
 	Print both the initial list and the new list
 
-* **12. Sorted occurences
+* 12. Sorted occurences
 
   * Write a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
 
@@ -147,7 +148,7 @@ Output format: <number arguments already printed>: <current argument value>
 	 * A value is the list of user ids
 	Print the new dictionary at the end
 
-* **13. Concat files
+* 13. Concat files
 
   * Write a script that concats 2 files.
 
@@ -155,15 +156,15 @@ Output format: <number arguments already printed>: <current argument value>
 	The second argument is the file path of the second source file
 	The third argument is the file path of the destination
 
-	guillaume@ubuntu:~/0x13$ cat fileA
-	C is fun!
-	guillaume@ubuntu:~/0x13$ cat fileB
-	Python is Cool!!!
-	guillaume@ubuntu:~/0x13$ ./102-concat.js fileA fileB fileC
-	guillaume@ubuntu:~/0x13$ cat fileC
-	C is fun!
-	Python is Cool!!!
-	guillaume@ubuntu:~/0x13$ 
+guillaume@ubuntu:~/0x13$ cat fileA
+C is fun!
+guillaume@ubuntu:~/0x13$ cat fileB
+Python is Cool!!!
+guillaume@ubuntu:~/0x13$ ./102-concat.js fileA fileB fileC
+guillaume@ubuntu:~/0x13$ cat fileC
+C is fun!
+Python is Cool!!!
+guillaume@ubuntu:~/0x13$ 
 
 Repo:
 

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""A script that Sends a POST request to a given URL with 
-a given email.
+"""A script that Sends a POST request to a given URL 
+   with a given email.
 Usage: ./6-post_email.py <URL> <email>
   - Displays the body of the response.
 """

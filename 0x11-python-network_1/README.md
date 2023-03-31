@@ -8,9 +8,9 @@
 ## Resources:books:
 
 ### Read or watch:eyes:
-+ [HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/KoRrs5dVWsb-B82e-M1TQQ)
-+ [HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/OGcRGPr7TSWtzypDd0ZibQ)
-+ [HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/dUNaNQrV2bMSstILitQbXQ)
+-[HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/KoRrs5dVWsb-B82e-M1TQQ)
+-[HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/OGcRGPr7TSWtzypDd0ZibQ)
+-[HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/dUNaNQrV2bMSstILitQbXQ)
 
 ## General
 + How to fetch internet resources with the Python package urllib
@@ -50,12 +50,12 @@
 - The body of the response must be displayed like the following example (tabulation before -)
 - You must use a with statement
 
-	guillaume@ubuntu:~/0x11$ ./0-hbtn_status.py | cat -e
-	Body response:$
-	    - type: <class 'bytes'>$
-	    - content: b'OK'$
-	    - utf8 content: OK$
-	guillaume@ubuntu:~/0x11$ 
+guillaume@ubuntu:~/0x11$ ./0-hbtn_status.py | cat -e
+Body response:$
+    - type: <class 'bytes'>$
+    - content: b'OK'$
+    - utf8 content: OK$
+guillaume@ubuntu:~/0x11$ 
 
 # Repo:
 

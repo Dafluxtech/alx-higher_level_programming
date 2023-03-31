@@ -113,13 +113,6 @@
 + The body of the response must be display like the following example (tabulation before -)
 	
 
-
-	guillaume@ubuntu:~/0x11$ ./4-hbtn_status.py | cat -e
-	Body response:$
-	    - type: <class 'str'>$
-	    - content: OK$
-	guillaume@ubuntu:~/0x11$ 
-
 ### [5. Response header value #1](./5-hbtn_header.py) 
 
 + Write a Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header
@@ -146,9 +139,6 @@ You don’t need to check script arguments (number and type)
 - You don’t need to error check arguments passed to the script (number or type)
 
 
-	guillaume@ubuntu:~/0x11$ ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
-	Your email is: hr@holbertonschool.com
-	guillaume@ubuntu:~/0x11$ 
 
 ### [7. Error code #1](./7-error_code.py) 
 
@@ -159,7 +149,7 @@ You don’t need to check script arguments (number and type)
 - You are not allowed to import packages other than requests and sys
 - You don’t need to check arguments passed to the script (number or type)
 
-
+---------------------------
 	guillaume@ubuntu:~/0x11$ ./7-error_code.py http://0.0.0.0:5000
 	Index
 	guillaume@ubuntu:~/0x11$ ./7-error_code.py http://0.0.0.0:5000/status_401
@@ -169,6 +159,8 @@ You don’t need to check script arguments (number and type)
 	guillaume@ubuntu:~/0x11$ ./7-error_code.py http://0.0.0.0:5000/status_500
 	Error code: 500
 	guillaume@ubuntu:~/0x11$ 
+-----------------------------
+
 
 ### [8. Search API](./8-json_api.py) 
 
@@ -196,13 +188,13 @@ You don’t need to check script arguments (number and type)
 + You don’t need to check arguments passed to the script (number or type)
 	
 
-
+----------
 	guillaume@ubuntu:~/0x11$ ./10-my_github.py papamuziko cisfun
 	2531536
 	guillaume@ubuntu:~/0x11$ ./10-my_github.py papamuziko wrong_pwd
 	None
 	guillaume@ubuntu:~/0x11$ 
-
+----------
 
 ### [10. Time for an interview!](./100-github_commits.py)
 

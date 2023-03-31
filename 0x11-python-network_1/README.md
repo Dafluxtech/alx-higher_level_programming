@@ -5,7 +5,7 @@
  By: Guillaume, CTO at Holberton School
 
 
-## Resources:books:
+## Resources:page:
 
 ### Read or watch:eyes:
 + [HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/KoRrs5dVWsb-B82e-M1TQQ)

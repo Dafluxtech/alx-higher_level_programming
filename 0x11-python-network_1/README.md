@@ -101,9 +101,10 @@
 * Please test your script in the sandbox provided, using the web server running on port 5000
 
 ----------------
-guillaume@ubuntu:~/0x11$ ./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
-Your email is: hr@holbertonschool.com
-guillaume@ubuntu:~/0x11$ 
+	guillaume@ubuntu:~/0x11$ ./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
+	Your email is: hr@holbertonschool.com
+	guillaume@ubuntu:~/0x11$ 
+
 ----------------
 
 
@@ -120,15 +121,16 @@ guillaume@ubuntu:~/0x11$
 * Please test your script in the sandbox provided, using the web server running on port 5000
 
 ------------
-guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000
-Index
-guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_401
-Error code: 401
-guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/doesnt_exist
-Error code: 404
-guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_500
-Error code: 500
-guillaume@ubuntu:~/0x11$ 
+	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000
+	Index
+	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_401
+	Error code: 401
+	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/doesnt_exist
+	Error code: 404
+	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_500
+	Error code: 500
+	guillaume@ubuntu:~/0x11$ 
+
 ------------
 
 
@@ -141,11 +143,12 @@ guillaume@ubuntu:~/0x11$
 + The body of the response must be display like the following example (tabulation before -)
 	
 -----------
-guillaume@ubuntu:~/0x11$ ./4-hbtn_status.py | cat -e
-Body response:$
-    - type: <class 'str'>$
-    - content: OK$
-guillaume@ubuntu:~/0x11$ 
+	guillaume@ubuntu:~/0x11$ ./4-hbtn_status.py | cat -e
+	Body response:$
+	    - type: <class 'str'>$
+	    - content: OK$
+	guillaume@ubuntu:~/0x11$ 
+
 -----------
 
 ### [5. Response header value #1](./5-hbtn_header.py) 
@@ -174,9 +177,11 @@ You don’t need to check script arguments (number and type)
 - You don’t need to error check arguments passed to the script (number or type)
 
 ------------
-guillaume@ubuntu:~/0x11$ ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
-Your email is: hr@holbertonschool.com
-guillaume@ubuntu:~/0x11$ 
+	
+	guillaume@ubuntu:~/0x11$ ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
+	Your email is: hr@holbertonschool.com
+	guillaume@ubuntu:~/0x11$ 
+
 ------------
 
 
@@ -216,15 +221,17 @@ guillaume@ubuntu:~/0x11$
 + You are not allowed to import packages other than requests and sys
 
 -------------
-guillaume@ubuntu:~/0x11$ ./8-json_api.py 
-No result
-guillaume@ubuntu:~/0x11$ ./8-json_api.py a
-[8446] amnirqhtfjq
-guillaume@ubuntu:~/0x11$ ./8-json_api.py 2
-No result
-guillaume@ubuntu:~/0x11$ ./8-json_api.py b
-[7094] bmofakakhke
-guillaume@ubuntu:~/0x11$ 
+
+	guillaume@ubuntu:~/0x11$ ./8-json_api.py 
+	No result
+	guillaume@ubuntu:~/0x11$ ./8-json_api.py a
+	[8446] amnirqhtfjq
+	guillaume@ubuntu:~/0x11$ ./8-json_api.py 2
+	No result
+	guillaume@ubuntu:~/0x11$ ./8-json_api.py b
+	[7094] bmofakakhke
+	guillaume@ubuntu:~/0x11$ 
+
 --------------
 
 

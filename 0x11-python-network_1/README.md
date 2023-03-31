@@ -76,7 +76,15 @@
 + The value of this variable is different for each request
 + You don’t need to check arguments passed to the script (number or type)
 + You must use a with statement
-	
+
+--------------------
+guillaume@ubuntu:~/0x11$ ./1-hbtn_header.py https://alx-intranet.hbtn.io
+ade2627e-41dd-4c34-b9d9-a0fa0f47b237
+guillaume@ubuntu:~/0x11$ 
+guillaume@ubuntu:~/0x11$ ./1-hbtn_header.py https://alx-intranet.hbtn.io
+6593e1f5-1b4b-4c9f-9c0e-72ab525b850f
+guillaume@ubuntu:~/0x11$ 
+---------------------
 
 ### [2. POST an email #0](./2-post_email.py)
 
@@ -89,6 +97,12 @@
 + You must use the with statement
 
 * Please test your script in the sandbox provided, using the web server running on port 5000
+
+----------------
+guillaume@ubuntu:~/0x11$ ./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
+Your email is: hr@holbertonschool.com
+guillaume@ubuntu:~/0x11$ 
+----------------
 
 
 ### [3. Error code #0](./3-error_code.py)
@@ -103,6 +117,18 @@
 
 * Please test your script in the sandbox provided, using the web server running on port 5000
 
+------------
+guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000
+Index
+guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_401
+Error code: 401
+guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/doesnt_exist
+Error code: 404
+guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_500
+Error code: 500
+guillaume@ubuntu:~/0x11$ 
+------------
+
 
 ### [4. What's my status? #1](./4-hbtn_status.py) 
 
@@ -112,6 +138,13 @@
 + You are not allow to import packages other than requests
 + The body of the response must be display like the following example (tabulation before -)
 	
+-----------
+guillaume@ubuntu:~/0x11$ ./4-hbtn_status.py | cat -e
+Body response:$
+    - type: <class 'str'>$
+    - content: OK$
+guillaume@ubuntu:~/0x11$ 
+-----------
 
 ### [5. Response header value #1](./5-hbtn_header.py) 
 
@@ -138,6 +171,11 @@ You don’t need to check script arguments (number and type)
 - You are not allowed to import packages other than requests and sys
 - You don’t need to error check arguments passed to the script (number or type)
 
+------------
+guillaume@ubuntu:~/0x11$ ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
+Your email is: hr@holbertonschool.com
+guillaume@ubuntu:~/0x11$ 
+------------
 
 
 ### [7. Error code #1](./7-error_code.py) 
@@ -174,6 +212,18 @@ You don’t need to check script arguments (number and type)
 + Display No result if the JSON is empty
 + You must use the package requests and sys
 + You are not allowed to import packages other than requests and sys
+
+-------------
+guillaume@ubuntu:~/0x11$ ./8-json_api.py 
+No result
+guillaume@ubuntu:~/0x11$ ./8-json_api.py a
+[8446] amnirqhtfjq
+guillaume@ubuntu:~/0x11$ ./8-json_api.py 2
+No result
+guillaume@ubuntu:~/0x11$ ./8-json_api.py b
+[7094] bmofakakhke
+guillaume@ubuntu:~/0x11$ 
+--------------
 
 
 ### [9. My Github!](./10-my_github.py)

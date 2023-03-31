@@ -50,12 +50,14 @@
 - The body of the response must be displayed like the following example (tabulation before -)
 - You must use a with statement
 
+...
 guillaume@ubuntu:~/0x11$ ./0-hbtn_status.py | cat -e
 Body response:$
     - type: <class 'bytes'>$
     - content: b'OK'$
     - utf8 content: OK$
 guillaume@ubuntu:~/0x11$ 
+...
 
 # Repo:
 

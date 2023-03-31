@@ -8,9 +8,9 @@
 ## Resources:books:
 
 ### Read or watch:eyes:
--[HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/KoRrs5dVWsb-B82e-M1TQQ)
--[HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/OGcRGPr7TSWtzypDd0ZibQ)
--[HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/dUNaNQrV2bMSstILitQbXQ)
+- (https://intranet.alxswe.com/rltoken/KoRrs5dVWsb-B82e-M1TQQ)
+- (https://intranet.alxswe.com/rltoken/OGcRGPr7TSWtzypDd0ZibQ)
+- (https://intranet.alxswe.com/rltoken/dUNaNQrV2bMSstILitQbXQ)
 
 ## General
 + How to fetch internet resources with the Python package urllib

@@ -77,16 +77,7 @@
 + You don’t need to check arguments passed to the script (number or type)
 + You must use a with statement
 	
-	...
-	
-	
-	guillaume@ubuntu:~/0x11$ ./1-hbtn_header.py 
-	https://alx-intranet.hbtn.io ade2627e-41dd-4c34-b9d9-a0fa0f47b237
-	guillaume@ubuntu:~/0x11$ 
-	guillaume@ubuntu:~/0x11$ ./1-hbtn_header.py 
-	https://alx-intranet.hbtn.io 6593e1f5-1b4b-4c9f-9c0e-72ab525b850f
-	guillaume@ubuntu:~/0x11$ 
-	...
+
 ### [2. POST an email #0](./2-post_email.py)
 
 + Write a Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8)
@@ -99,9 +90,6 @@
 
 * Please test your script in the sandbox provided, using the web server running on port 5000
 
-	guillaume@ubuntu:~/0x11$ ./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
-	Your email is: hr@holbertonschool.com
-	guillaume@ubuntu:~/0x11$ 
 
 ### [3. Error code #0](./3-error_code.py)
 
@@ -115,25 +103,17 @@
 
 * Please test your script in the sandbox provided, using the web server running on port 5000
 
-	
-	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000
-	Index
-	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_401
-	Error code: 401
-	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/doesnt_exist
-	Error code: 404
-	guillaume@ubuntu:~/0x11$ ./3-error_code.py http://0.0.0.0:5000/status_500
-	Error code: 500
-	guillaume@ubuntu:~/0x11$ 
 
 ### [4. What's my status? #1](./4-hbtn_status.py) 
 
 + Write a Python script that fetches https://alx-intranet.hbtn.io/status
 
-- You must use the package requests
-- You are not allow to import packages other than requests
-- The body of the response must be display like the following example (tabulation before -)
++ You must use the package requests
++ You are not allow to import packages other than requests
++ The body of the response must be display like the following example (tabulation before -)
 	
+
+
 	guillaume@ubuntu:~/0x11$ ./4-hbtn_status.py | cat -e
 	Body response:$
 	    - type: <class 'str'>$
@@ -165,7 +145,6 @@ You don’t need to check script arguments (number and type)
 - You are not allowed to import packages other than requests and sys
 - You don’t need to error check arguments passed to the script (number or type)
 
-* test script done in the sandbox provided, using the web server running on port 5000
 
 	guillaume@ubuntu:~/0x11$ ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
 	Your email is: hr@holbertonschool.com
@@ -180,9 +159,7 @@ You don’t need to check script arguments (number and type)
 - You are not allowed to import packages other than requests and sys
 - You don’t need to check arguments passed to the script (number or type)
 
-* test script in the sandbox provided, using the web server running on port 5000
 
-	
 	guillaume@ubuntu:~/0x11$ ./7-error_code.py http://0.0.0.0:5000
 	Index
 	guillaume@ubuntu:~/0x11$ ./7-error_code.py http://0.0.0.0:5000/status_401
@@ -218,11 +195,14 @@ You don’t need to check script arguments (number and type)
 + You are not allowed to import packages other than requests and sys
 + You don’t need to check arguments passed to the script (number or type)
 	
+
+
 	guillaume@ubuntu:~/0x11$ ./10-my_github.py papamuziko cisfun
 	2531536
 	guillaume@ubuntu:~/0x11$ ./10-my_github.py papamuziko wrong_pwd
 	None
 	guillaume@ubuntu:~/0x11$ 
+
 
 ### [10. Time for an interview!](./100-github_commits.py)
 
